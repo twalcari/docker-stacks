@@ -3,9 +3,11 @@
 [![DockerHub badge](https://images.microbadger.com/badges/version/jupyter/base-notebook.svg)](https://microbadger.com/images/jupyter/base-notebook "Recent tag/version of jupyter/base-notebook")
 [![Binder badget](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyter/docker-stacks/master?filepath=README.ipynb "Launch a jupyter/base-notebook container on mybinder.org")
 
-# Jupyter Docker Stacks
+# Jupyter Docker Stacks - GPU-enabled fork
 
 Jupyter Docker Stacks are a set of ready-to-run Docker images containing Jupyter applications and interactive computing tools.
+
+**This fork is GPU-enabled. It is built on the nvidia/cuda docker base image, and installs tensorflow-gpu**
 
 ## Quick Start
 
